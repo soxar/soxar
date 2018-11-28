@@ -1,0 +1,22 @@
+[Unit]
+Description=Soxar's distributed currency daemon
+After=network.target
+
+[Service]
+User=soxarcore
+Group=soxarcore
+
+Type=forking
+PIDFile=/var/lib/soxard/soxard.pid
+ExecStart=/usr/bin/soxard -daemon -pid=/var/lib/soxard/soxard.pid \
+-conf=/etc/soxarcore/soxar.conf -datadir=/var/lib/soxard -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

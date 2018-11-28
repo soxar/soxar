@@ -1,0 +1,6 @@
+usr/local/bin/soxar-qt usr/bin
+share/pixmaps/soxar32.xpm usr/share/pixmaps
+share/pixmaps/soxar16.xpm usr/share/pixmaps
+share/pixmaps/soxar128.png usr/share/pixmaps
+debian/soxar-qt.desktop usr/share/applications
+debian/soxar-qt.protocol usr/share/kde4/services/

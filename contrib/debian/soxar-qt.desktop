@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Soxar Core
+Comment=Soxar P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Soxar peer-to-peer Netzwerk
+Comment[fr]=Soxar, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Soxar, eşten eşe kriptografik sanal para birimi
+Exec=soxar-qt %u
+Terminal=false
+Type=Application
+Icon=soxar128
+MimeType=x-scheme-handler/soxar;
+Categories=Office;Finance;

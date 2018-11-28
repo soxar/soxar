@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/soxar_bg.qm</file>
+        <file alias="de">locale/soxar_de.qm</file>
+        <file alias="en">locale/soxar_en.qm</file>
+        <file alias="es">locale/soxar_es.qm</file>
+        <file alias="fi">locale/soxar_fi.qm</file>
+        <file alias="fr">locale/soxar_fr.qm</file>
+        <file alias="it">locale/soxar_it.qm</file>
+        <file alias="ja">locale/soxar_ja.qm</file>
+        <file alias="nl">locale/soxar_nl.qm</file>
+        <file alias="pl">locale/soxar_pl.qm</file>
+        <file alias="pt">locale/soxar_pt.qm</file>
+        <file alias="ru">locale/soxar_ru.qm</file>
+        <file alias="sk">locale/soxar_sk.qm</file>
+        <file alias="sv">locale/soxar_sv.qm</file>
+        <file alias="vi">locale/soxar_vi.qm</file>
+        <file alias="zh_CN">locale/soxar_zh_CN.qm</file>
+        <file alias="zh_TW">locale/soxar_zh_TW.qm</file>
+    </qresource>
+</RCC>
